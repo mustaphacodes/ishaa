@@ -3,165 +3,231 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ey-shaa Farms</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ey-shaa Farms - Home</title>
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome for Icons -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Font Awesome CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
 </head>
 <body>
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-        
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-                <li class="nav-item"><a class="nav-link" href="product.html">Products</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Commodities</a></li>
-                <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-                <li class="nav-item"><a class="nav-link" href="partners.html">Partners</a></li>
-                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                <li class="nav-item">
-                    <button class="btn btn-outline-success" type="button" aria-label="Search">
-                        <i class="fas fa-search"></i>
-                    </button>
-                </li>
-            </ul>
+    <main>
+    <header id="header" class="bg-primary text-white p-3">
+        <div class="container d-flex justify-content-between align-items-center">
+<button class="navbar-toggler btn btn-success border-0 rounded-3 shadow-sm" type="button" data-bs-toggle="collapse" data-bs-target="#navbarLinks" aria-controls="navbarLinks" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-bars text-white"></i>
+</button>            
+            <nav id="navbar" class="navbar">
+                <div class="collapse navbar-collapse" id="navbarLinks">
+                    <ul class="nav">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="product.html">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="partners.html">Partners</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Training</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div id="search-bar" class="d-flex gap-1">
+                <input type="text" id="search" class="form-control" placeholder="Search...">
+                <button type="button" class="btn btn-light ml-2"><i class="fas fa-search" aria-hidden="true"></i></button>
+            </div>
         </div>
-    </div>
-</nav>
-    <!-- Hero Section -->
-    <div class="bg-success text-white text-center py-5">
-        <h1 class="display-3 fw-bold">Welcome to Ey-shaa Farms</h1>
-        <p class="lead">Pioneering agricultural growth, enhancing food security, and fostering sustainability.</p>
-        <a href="#" class="btn btn-warning btn-lg">Learn More</a>
-    </div>
-
-    <!-- About Us Section -->
-    <section id="about-us" class="py-5 bg-light">
+    </header>
+    <section class="bg-success text-white text-center py-5">
         <div class="container">
-            <h2 class="text-center display-4 text-success mb-4">About Us</h2>
-            <p class="lead">Ey-shaa Farms is a premier agricultural company committed to enhancing food security and sustainable farming practices. We operate from our headquarters in Nasarawa State, Nigeria, and maintain a regional office in Kaduna State. Our mission is to tackle food insecurity, improve agricultural practices, and empower local communities.</p>
-            <p>Founded in 2015, Ey-shaa Farms has grown to become a leading player in Nigeria’s agricultural sector, working with local farmers, government bodies, and international organizations to drive innovative solutions in farming. Our key areas of focus include crop production, livestock farming, and agro-processing. We are also heavily involved in training and development programs aimed at educating the next generation of farmers.</p>
-            <p>We pride ourselves on our sustainable practices, ensuring that our operations are environmentally friendly and economically viable. Through strategic partnerships and investments, Ey-shaa Farms is determined to create a positive impact on both local and international agricultural markets.</p>
+            <h1>Welcome to Ey-shaa Farms</h1>
+            <p class="lead">Revolutionizing agriculture in Nigeria with innovative and sustainable farming practices.</p>
         </div>
     </section>
 
-    <!-- Our Team Section -->
-    <section id="our-team" class="py-5">
-        <div class="container">
-            <h2 class="text-center display-4 text-success mb-4">Our Team</h2>
-            <div class="row text-center">
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="https://via.placeholder.com/200" class="card-img-top" alt="Founder">
-                        <div class="card-body">
-                            <h5 class="card-title">Malam Said Ei-shAA</h5>
-                            <p class="card-text">Founder & Chief Visionary</p>
-                            <p class="text-muted">Malam Said Ei-shAA founded Ey-shaa Farms with the vision to revolutionize agriculture in Nigeria. He is a seasoned agricultural entrepreneur with decades of experience in both local and international farming communities. His leadership ensures that Ey-shaa Farms remains at the forefront of innovation in agriculture.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="https://via.placeholder.com/200" class="card-img-top" alt="Director">
-                        <div class="card-body">
-                            <h5 class="card-title">Dr Ahmad Said Ey-shAA</h5>
-                            <p class="card-text">Director & Strategy Lead</p>
-                            <p class="text-muted">Dr Ahmad Said Ey-shAA leads the company’s strategic direction. With a background in agricultural economics and sustainable farming practices, he spearheads projects that integrate innovation with traditional farming techniques. His work is vital in ensuring long-term growth and sustainability for Ey-shaa Farms.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="https://via.placeholder.com/200" class="card-img-top" alt="CEO">
-                        <div class="card-body">
-                            <h5 class="card-title">Zayyad Ey-shAA</h5>
-                            <p class="card-text">Chief Executive Officer</p>
-                            <p class="text-muted">Zayyad Ey-shAA oversees the overall operations of Ey-shaa Farms. With his expertise in business management and agribusiness, he focuses on scaling the company’s operations and expanding its impact on the agricultural sector, both locally and internationally.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="https://via.placeholder.com/200" class="card-img-top" alt="IT Specialist">
-                        <div class="card-body">
-                            <h5 class="card-title">Bilal Ey-shAA</h5>
-                            <p class="card-text">IT Specialist & Tech Lead</p>
-                            <p class="text-muted">Bilal Ey-shAA is the technical brain behind Ey-shaa Farms’ digital transformation. He develops and maintains the IT infrastructure that enables the company to track agricultural production, streamline processes, and use data to drive better decision-making.</p>
-                        </div>
+    <!-- About Us Section -->
+    <section class="container py-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="text-success font-weight-bold">About Us</h2>
+                <p>Ey-shaa Farms is a limited liability company focused on sustainable agriculture and food security in Nigeria. We collaborate with local and international organizations to foster food sufficiency and agro-business growth.</p>
+                <a href="#" class="btn btn-success">Read Full About Us</a>
+            </div>
+            <div class="col-md-6">
+                <img src="" class="img-fluid" alt="Farm Image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Farm Activities Section -->
+    <section class="container py-5">
+        <h2 class="text-success text-center font-weight-bold">Farm Activities</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="" class="img-fluid" alt="Farm Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Farm Activity 1</h5>
+                        <p class="card-text">A glimpse into our farming activities, from crop production to livestock management.</p>
                     </div>
                 </div>
             </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="" class="img-fluid" alt="Farm Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Farm Activity 2</h5>
+                        <p class="card-text">We prioritize sustainable agricultural practices that improve food security.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="" class="img-fluid" alt="Farm Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Farm Activity 3</h5>
+                        <p class="card-text">Our farms use modern techniques to enhance production and reduce waste.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="container py-5">
+        <h2 class="text-success text-center font-weight-bold">Our Valued Partners</h2>
+        <p class="text-center">We collaborate with renowned agricultural organizations to help farmers thrive. Explore some of our esteemed partners below.</p>
+        <div class="row text-center">
+            <div class="col-md-3">
+                <img src="" alt="Partner 1 Logo" class="img-fluid">
+            </div>
+            <div class="col-md-3">
+                <img src="" alt="Partner 1 Logo" class="img-fluid">
+            </div>
+            <div class="col-md-3">
+                <img src="" alt="Partner 1 Logo" class="img-fluid">
+            </div>
+            <div class="col-md-3">
+                <img src="" alt="Partner 1 Logo" class="img-fluid">
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <a href="#" class="btn btn-success">View All Partners</a>
         </div>
     </section>
 
     <!-- Services Section -->
-    <section id="services" class="py-5 bg-light">
-        <div class="container">
-            <h2 class="text-center display-4 text-success mb-4">Our Services</h2>
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Farm Management</h5>
-                            <p class="card-text">We provide expert guidance and management for farms of all sizes, helping to optimize operations, improve yields, and increase profitability while ensuring sustainability.</p>
-                        </div>
+    <section class="container py-5">
+        <h2 class="text-success text-center font-weight-bold">Our Comprehensive Services</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header bg-success text-white">
+                        <i class="fas fa-cogs fa-2x"></i>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Farm Management</h5>
+                        <p class="card-text">Expert guidance for crop production, livestock management, and sustainable practices.</p>
+                        <a href="#" class="btn btn-success">Learn More</a>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Agricultural Training</h5>
-                            <p class="card-text">Ey-shaa Farms offers hands-on training programs to farmers on modern agricultural techniques, crop management, and sustainable practices to enhance productivity and profitability.</p>
-                        </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header bg-success text-white">
+                        <i class="fas fa-graduation-cap fa-2x"></i>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Agricultural Training</h5>
+                        <p class="card-text">Training programs on modern farming techniques and sustainable practices.</p>
+                        <a href="#" class="btn btn-success">Learn More</a>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Agribusiness Consulting</h5>
-                            <p class="card-text">We offer consulting services to aspiring agribusinesses, helping to develop and implement strategies for growth, sustainability, and profitability in the competitive agricultural market.</p>
-                        </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header bg-success text-white">
+                        <i class="fas fa-briefcase fa-2x"></i>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Agribusiness Consulting</h5>
+                        <p class="card-text">Consulting services for starting and growing profitable agribusiness ventures.</p>
+                        <a href="#" class="btn btn-success">Learn More</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer Section -->
-    <footer id="footer" class="bg-dark text-white pt-5 pb-4">
-        <div class="container">
-            <!-- Footer Top Section -->
-            <div class="row mb-4">
-                <!-- About Ey-shaa Farms -->
-                <div class="col-md-12">
-                    <h5 class="text-success mb-3">About Ey-shaa Farms</h5>
-                    <p>Ey-shaa Farms is dedicated to advancing agricultural practices through innovative solutions. Our commitment lies in sustainable farming techniques, empowering local farmers, and supporting agribusiness development. We aim to foster growth in the agricultural sector by providing expert services, training programs, and consultation, ensuring farmers thrive in today’s modern agricultural landscape.</p>
-                    <p>We work closely with farmers to introduce technology-driven farming practices, ensuring they are well-equipped to succeed in an ever-changing world. Join us in our mission to transform the future of agriculture for the better!</p>
+    <!-- Contact Section -->
+    <section class="container py-5">
+        <h2 class="text-success text-center font-weight-bold">We'd Love to Hear from You</h2>
+        <p class="text-center">Get in touch with us to learn more about our services or discuss potential collaborations.</p>
+        <div class="text-center">
+            <a href="#" class="btn btn-success">Contact Us Today</a>
+        </div>
+    </section>
+
+    <!-- Training Programs Section -->
+    <section class="container py-5">
+        <h2 class="text-success text-center font-weight-bold">Our Comprehensive Training Programs</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Crop Production</h5>
+                        <p class="card-text">Learn best practices in crop production and land management.</p>
+                        <a href="#" class="btn btn-success">Learn More</a>
+                    </div>
                 </div>
             </div>
-    
-            <!-- Footer Bottom Section -->
-            <div class="row">
-                <!-- Footer Legal Links -->
-                <div class="col-12 text-center">
-                    <ul class="list-inline">
-                        <li class="list-inline-item"><a href="terms.html" class="text-white"><i class="fas fa-gavel" aria-hidden="true"></i> Terms & Conditions</a></li>
-                        <li class="list-inline-item"><a href="privacy.html" class="text-white"><i class="fas fa-user-secret" aria-hidden="true"></i> Privacy Policy</a></li>
-                    </ul>
-                    <p class="mt-3">&copy; 2025 Ey-shaa Farms. All rights reserved.</p>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Livestock Management</h5>
+                        <p class="card-text">Gain knowledge in breeding, feeding, and managing livestock.</p>
+                        <a href="#" class="btn btn-success">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Agro-Entrepreneurship</h5>
+                        <p class="card-text">Learn how to turn your farming operation into a successful business.</p>
+                        <a href="#" class="btn btn-success">Learn More</a>
+                    </div>
                 </div>
             </div>
         </div>
-    </footer>
-    
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    </section>
+</main>    
+<footer id="footer" class="bg-dark text-white pt-5 pb-4">
+    <div class="container">
+        <!-- Footer Top Section -->
+        <div class="row mb-4">
+            <!-- About Ey-shaa Farms -->
+            <div class="col-md-12">
+                <h5 class="text-success mb-3">About Ey-shaa Farms</h5>
+                <p>Ey-shaa Farms is dedicated to advancing agricultural practices through innovative solutions. Our commitment lies in sustainable farming techniques, empowering local farmers, and supporting agribusiness development. We aim to foster growth in the agricultural sector by providing expert services, training programs, and consultation, ensuring farmers thrive in today’s modern agricultural landscape.</p>
+                <p>We work closely with farmers to introduce technology-driven farming practices, ensuring they are well-equipped to succeed in an ever-changing world. Join us in our mission to transform the future of agriculture for the better!</p>
+            </div>
+        </div>
+        <!-- Footer Bottom Section -->
+        <div class="row">
+            <!-- Footer Legal Links -->
+            <div class="col-12 text-center">
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="terms.html" class="text-white"><i class="fas fa-gavel" aria-hidden="true"></i> Terms & Conditions</a></li>
+                    <li class="list-inline-item"><a href="privacy.html" class="text-white"><i class="fas fa-user-secret" aria-hidden="true"></i> Privacy Policy</a></li>
+                </ul>
+                <p class="mt-3">&copy; 2025 Ey-shaa Farms. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+     <!-- External JS File -->
+    <script src="index.js"></script>
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
